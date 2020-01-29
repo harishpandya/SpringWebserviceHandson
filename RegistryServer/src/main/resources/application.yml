@@ -1,0 +1,9 @@
+srping:
+    application:
+        name : eurekaServer
+eureka:
+    client:
+        registerWithEureka : false
+        fetchRegistry : false
+server:
+    port : 7000

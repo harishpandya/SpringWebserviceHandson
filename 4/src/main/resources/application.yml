@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: four
+server:
+  port: 8084
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka
+    instance:
+    preferIpAddress: true
